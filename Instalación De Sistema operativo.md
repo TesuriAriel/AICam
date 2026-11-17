@@ -21,3 +21,7 @@ Una vez identificado ejecutaremos:
 `sudo dd if=/ruta/de/tu/archivo.iso of=/dev/SdX bs=4M status=progress conv=fsync` luego de presionar enter, empezara a eliminar todo lo que tiene su pendrive y el instalador del sistema operativo sera puesto dentro.
 
 ## INSTALACIÓN DE SISTEMA OPERATIVO
+Asegúrate de tener la tarjeta SD conectada a la Raspberry, luego, conecta el USB Booteable hecho en anteriores pasos y conecta la Raspberry a la corriente.
+
+La Raspberry empezara a descargar el sistema operativo en la tarjeta SD conectada, dentro de unos minutos el sistema operativo se iniciara, entonces la reiniciamos y retiramos el USB.
+
